@@ -1,0 +1,129 @@
+html{
+font-family: 'Raleway', sans-serif;
+font-style: normal;
+font-size: 18px;
+}
+@media only screen and (min-width: 600px) { /* oder rem/em */
+  html {
+    font-size: 95%;
+    }
+}
+
+
+
+    ul.menu {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      margin-left: 0px;
+      margin-bottom: 120px;
+      position:-webkit-sticky;
+      position:sticky; top:0;
+      background-color: #f1f1f1;
+      border: 0px solid #086A87;
+    }
+
+    li a {
+      display: block;
+      color: #000;
+      padding: 16px 16px;
+      text-decoration: none;
+    }
+
+    li {
+      text-align: center;
+      border-bottom: 0px solid #086A87;
+    }
+
+    li:last-child {
+      border-bottom: none;
+      background-color: white;
+    }
+
+    li a.active {
+      background-color: #086A87;
+      color: white;
+    }
+
+    li a:hover:not(.active) {
+      background-color: #0B2F3A;
+      color: white;
+    }
+
+li.b{
+  text-align: left;
+  margin-left: 30px;
+  color:#086A87
+
+}
+
+
+.container img{
+max-width: 100%;
+perspective-origin: center;
+margin: 0 auto;
+margin-bottom: -67px;
+}
+
+.abschnitt1 {
+  width: 86%;
+  max-width: 34rem;
+  margin: 0 auto;
+  margin-left: 7%;
+  margin-right: 7%;
+  line-height: 1.4;
+  letter-spacing: 0.02em;
+  hyphens: auto;
+}
+
+.abspann p {
+  color:grey;
+  text-align: right;
+  margin-right: 50px;
+  font-size: 12px;
+  margin-bottom: 20px;
+
+}
+
+@media only screen and (min-width: 600px) {
+  .abschnitt1 {
+    width: 85%;
+    margin-left: 9%;
+    margin-right: 6%;
+  }
+}
+
+h2 {
+  color: #086A87;
+}
+
+h3 {color: #086A87;
+  font-size: 11px;
+  margin-bottom: 10px;
+}
+
+h4 {font-size: 20px;
+  margin-top: -20px;
+  margin-bottom: -30px;
+}
+
+hr {
+  margin-top: 40px;
+  width: 85%;
+  height: 10px;
+  background-color: #086A87;
+  border: none;
+}
+@media only screen and (min-width: 600px) {
+  hr {
+    margin-left: 9%;
+.bild01 img{
+  width: 100%;
+}
+
+
+
+
+.lebende_fotokamera img{
+}
