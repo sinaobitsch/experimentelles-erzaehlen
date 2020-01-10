@@ -22,6 +22,8 @@ font-size: 18px;
       position:sticky; top:0;
       background-color: #f1f1f1;
       border: 0px solid #086A87;
+      font-family: 'Raleway', sans-serif;
+
     }
 
     li a {
@@ -115,15 +117,46 @@ hr {
   background-color: #086A87;
   border: none;
 }
+
+
+
+ul.app {
+  list-style-type: none;
+  margin: center;
+  padding: 0;
+  width:100%;
+  margin-top: 25px;
+  margin-bottom: 30px;
+  background-color: #f1f1f1;
+  border: 0px solid #086A87;
+  font-family: 'Raleway', sans-serif;
+}
+
+  @keyframes slideshow {
+  	10% {left: 0;}
+  	20% {left: 0;}
+  	30% {left: 0;}
+  	40% {left: -100%;}
+  	50% {left: -100%;}
+  	60% {left: -100%;}
+  	70% {left: -200%;}
+  	80% {left: -200%;}
+  	90% {left: -200%;}
+  	100% {left: 0;}
+  }
+
+
+  #slider{overflow:hidden;width:100%;margin:5px auto; }
+  #slider figure img{width:20%;float:left;}
+  #slider figure{position:relative;width:500%;margin:0;left:0;text-align:left;animation:10s slideshow infinite}
+
+  @media screen and (max-width: 767px) {#slider {overflow: hidden; width: 100%; margin: 0 auto;}}
+
+
+
 @media only screen and (min-width: 600px) {
   hr {
     margin-left: 9%;
 .bild01 img{
   width: 100%;
-}
-
-
-
-
-.lebende_fotokamera img{
 }
