@@ -35,11 +35,12 @@ font-size: 18px;
 
     li {
       text-align: center;
+      background-color: white;
       border-bottom: 0px solid #086A87;
     }
 
     li:last-child {
-      border-bottom: none;
+      border-bottom: white;
       background-color: white;
     }
 
