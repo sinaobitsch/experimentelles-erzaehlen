@@ -44,7 +44,7 @@ p{
       text-align: center;
       background-color: white;
       border-bottom: 0px solid #086A87;
-      box-shadow: 3px 0px 4px black;
+      box-shadow: 3px black;
     }
 
     li:last-child {
