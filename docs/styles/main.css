@@ -44,6 +44,7 @@ p{
       text-align: center;
       background-color: white;
       border-bottom: 0px solid #086A87;
+      box-shadow: 3px 0px 4px black;
     }
 
     li:last-child {
@@ -64,7 +65,8 @@ p{
 li.b{
   text-align: left;
   margin-left: 30px;
-  color:#086A87
+  color:#086A87;
+  background-color: #f1f1f1;
 
 }
 
