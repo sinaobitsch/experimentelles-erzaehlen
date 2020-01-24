@@ -128,7 +128,12 @@ hr {
   border: none;
 }
 
-
+div.flomigeschichte{
+  letter-spacing: 1px;
+  line-height: 1.5;
+  font-style: italic;
+  color: #086A87;
+}
 
 ul.app {
   list-style-type: none;
